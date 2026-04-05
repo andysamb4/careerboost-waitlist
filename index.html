@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerBoost AI | Land the role you actually want</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error": "#ba1a1a",
+                    "tertiary-container": "#091b39",
+                    "secondary-fixed-dim": "#fbbc00",
+                    "surface-container-highest": "#e1e3e4",
+                    "primary": "#000000",
+                    "primary-fixed": "#d6e3ff",
+                    "surface-container": "#edeeef",
+                    "on-surface-variant": "#44474d",
+                    "primary-container": "#0d1c32",
+                    "surface-container-high": "#e7e8e9",
+                    "primary-fixed-dim": "#b9c7e4",
+                    "on-background": "#191c1d",
+                    "inverse-surface": "#2e3132",
+                    "on-tertiary-fixed": "#091b39",
+                    "surface-tint": "#515f78",
+                    "on-secondary-fixed-variant": "#5c4300",
+                    "surface-container-low": "#f3f4f5",
+                    "tertiary-fixed-dim": "#b6c6ed",
+                    "on-surface": "#191c1d",
+                    "error-container": "#ffdad6",
+                    "outline-variant": "#c5c6cd",
+                    "on-primary-fixed-variant": "#39475f",
+                    "on-error": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "on-secondary-fixed": "#261a00",
+                    "tertiary-fixed": "#d8e2ff",
+                    "outline": "#75777e",
+                    "on-tertiary-container": "#7484a7",
+                    "on-error-container": "#93000a",
+                    "secondary": "#795900",
+                    "secondary-container": "#ffbf00",
+                    "inverse-primary": "#b9c7e4",
+                    "on-primary-fixed": "#0d1c32",
+                    "inverse-on-surface": "#f0f1f2",
+                    "on-tertiary-fixed-variant": "#374767",
+                    "on-secondary-container": "#6d5000",
+                    "surface": "#f8f9fa",
+                    "surface-container-lowest": "#ffffff",
+                    "background": "#f8f9fa",
+                    "on-primary-container": "#76849f",
+                    "on-tertiary": "#ffffff",
+                    "surface-bright": "#f8f9fa",
+                    "secondary-fixed": "#ffdfa0",
+                    "tertiary": "#000000",
+                    "surface-variant": "#e1e3e4",
+                    "on-primary": "#ffffff",
+                    "surface-dim": "#d9dadb"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-nav {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
+      }
+      .cinematic-shadow {
+        box-shadow: 0 40px 40px rgba(0,0,0,0.04);
+      }
+      .gold-gradient {
+        background: linear-gradient(135deg, #795900 0%, #ffbf00 100%);
+      }
+    </style>
+  </head>
+  <body class="bg-surface font-body text-on-surface selection:bg-secondary-fixed">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
