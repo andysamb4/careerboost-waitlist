@@ -3,22 +3,23 @@ import { useState } from 'react';
 export default function App() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus('loading');
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData);
     try {
-      const res = await fetch('/api/submit', { 
-        method: 'POST', 
-        headers: { 'Content-Type': 'application/json' }, 
-        body: JSON.stringify(data) 
+      const res = await fetch('/api/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
       });
       if (!res.ok) throw new Error('Failed');
       setStatus('success');
     } catch (err) {
       console.error(err);
-      setStatus('success'); // Fallback visually succeeds
+      setStatus('error');
     }
   };
 
@@ -218,6 +219,9 @@ export default function App() {
 <button disabled={status === 'loading'} className="w-full gold-gradient text-white font-black py-5 rounded-xl text-lg hover:opacity-90 active:scale-[0.98] transition-all cinematic-shadow mt-4 disabled:opacity-50" type="submit">
                                 {status === 'loading' ? 'Joining...' : 'Get Early Access'}
                             </button>
+                            {status === 'error' && (
+                              <p className="text-red-400 text-sm text-center">Something went wrong. Please try again.</p>
+                            )}
 </form>
 )}
 </div>
