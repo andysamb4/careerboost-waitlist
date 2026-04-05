@@ -27,7 +27,6 @@ export default async function handler(req, res) {
           'First Name': firstName || '',
           'Email Address': email || '',
           'Segment': segment || '',
-          'Submitted At': new Date().toISOString(),
         },
       }),
     });
