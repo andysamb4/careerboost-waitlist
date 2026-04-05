@@ -61,7 +61,7 @@ export default function App() {
 </div>
 <div className="md:col-span-5 relative">
 <div className="relative bg-white/5 p-4 rounded-xl backdrop-blur-sm border border-white/10">
-<img alt="Application Dashboard" className="rounded-lg shadow-2xl" data-alt="high-end minimalist digital interface showing a tailored CV and cover letter comparison side-by-side with professional typography and amber accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxXnC8Nh6hm5NWdYexeGtOa14JWEP9wAA7mVSMqoj_SIr_3Har6yuBak_A_XC7webT_G7koDPUSof5RDJlxPZeis-KmFrUl5V1imqQm_sm9WSXIlxcX_nEeOjiIZCrceTkQiFXg1y4mL72589YllBEjECrThxrXLC9ADTFUVZ9yvXo_7-7TsGxEepzSND-8g5BeeJ1Fe4EFEsbTQXR_fQXfq-JJ6bJEX5J5Hfr-KnUsKXC8Mcfgz7Z61LBK8AW6yRd3oSY2PAdwvE"/>
+<img alt="AI Analysis Report Dashboard" className="rounded-lg shadow-2xl" data-alt="CareerBoost AI analysis report showing match score of 84 with ATS analysis, strengths, missing keywords, and areas for improvement" src="/hero2.png"/>
 <div className="absolute -bottom-8 -left-8 bg-surface-container-lowest p-6 rounded-xl cinematic-shadow hidden md:block border border-outline-variant/10">
 <div className="flex items-center gap-4">
 <div className="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
@@ -147,7 +147,7 @@ export default function App() {
 <div className="max-w-7xl mx-auto px-8 relative z-10">
 <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
 <div>
-<h2 className="text-5xl font-bold tracking-tight mb-4">People are getting interviews</h2>
+<h2 className="text-5xl font-bold tracking-tight mb-4 gold-gradient text-transparent bg-clip-text">How our system works!</h2>
 <p className="text-on-primary-container text-xl max-w-xl">Success isn't accidental. It's engineered through architectural precision in every application document.</p>
 </div>
 <div className="flex gap-4">
@@ -159,47 +159,8 @@ export default function App() {
 </div>
 </div>
 </div>
-<div className="grid md:grid-cols-2 gap-12">
-{/* Testimonial 1 */}
-<div className="bg-white/5 backdrop-blur-xl p-12 rounded-2xl border border-white/10">
-<div className="flex gap-1 text-secondary mb-8">
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-</div>
-<p className="text-2xl leading-relaxed mb-10 italic font-light">"I was stuck for 4 months applying to senior roles with no bites. Used CareerBoost for one application at a Tier 1 firm. Got the interview within 48 hours."</p>
-<div className="flex items-center gap-4">
-<div className="w-14 h-14 rounded-full overflow-hidden bg-surface-container-high">
-<img alt="Sarah" className="w-full h-full object-cover" data-alt="portrait of a professional woman in her 30s with a confident smile in a bright office environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBdrBB2mvQbfS6l112yEntLKQ6DWiQ1KPbAocwbKYCCQAUUhAdRdaMvQF3B9NqGxmw-mNfh-1J419dTeU3oW7mr4HO5O1WcXtAHac9Y9KWCIAjXBy3bP0wDKQ_wQKyeL6X0LI0oZWxkY4oZjH31ftXAtmk01QODHoMNFXL-_nmZ8tt06qA2QpeSRk0hsKtIbI_8lGuh6wl8SwIFOlazYfLvbh5Q53ar13lsYxS28lSlq7cpA3njEewEAzlGd-W59i0bUCN4TkglHQ"/>
-</div>
-<div>
-<p className="font-bold">Sarah</p>
-<p className="text-sm text-on-primary-container">Marketing Manager</p>
-</div>
-</div>
-</div>
-{/* Testimonial 2 */}
-<div className="bg-white/5 backdrop-blur-xl p-12 rounded-2xl border border-white/10">
-<div className="flex gap-1 text-secondary mb-8">
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-</div>
-<p className="text-2xl leading-relaxed mb-10 italic font-light">"Switching from retail management to Tech seemed impossible. CareerBoost translated my transferrable skills into 'tech-speak' that recruiters finally understood."</p>
-<div className="flex items-center gap-4">
-<div className="w-14 h-14 rounded-full overflow-hidden bg-surface-container-high">
-<img alt="James" className="w-full h-full object-cover" data-alt="portrait of a modern professional man with a friendly expression in a creative studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOSJT1vIEs9rghFoMY7Fb1lyPsh6z0FhjtdwzDSh6_MT8YGp04FCqVgCQh93Hl8QU_-yPhbgdypUhsHuTK1Gu0aNpDShYL1t_kegPNMqP-cq2K9VTkPmXdQNvfIKWP4gO7nvjjJxwDbmsodaXvFaeFohuC4exrKntXl7A2MDApWCZz54vSveDdXGd4cUV3MNBkaE1qSOzA6sdm9C0CRyESjblnm3Y1z61KutKySt4cuPvv5YYBu07S_HW8tEavzLvXixCZlraFNIQ"/>
-</div>
-<div>
-<p className="font-bold">James</p>
-<p className="text-sm text-on-primary-container">Career Changer</p>
-</div>
-</div>
-</div>
+<div className="flex justify-center">
+<img alt="CV Infographic" className="max-w-4xl w-full rounded-2xl shadow-2xl" src="/cvinfographic.jpg"/>
 </div>
 </div>
 </section>
