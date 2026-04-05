@@ -29,7 +29,6 @@ export default function App() {
 <div className="text-xl font-extrabold tracking-tighter text-[#0A192F]">CareerBoost AI</div>
 <div className="hidden md:flex items-center gap-8">
 <a className="text-slate-500 font-medium hover:text-amber-600 transition-colors" href="#">How It Works</a>
-<a className="text-slate-500 font-medium hover:text-amber-600 transition-colors" href="#">About Us</a>
 </div>
 <button className="bg-amber-600 text-white px-6 py-2.5 rounded-lg font-bold text-sm hover:opacity-80 transition-all duration-300 active:scale-95">
                 Join Waitlist
@@ -147,7 +146,7 @@ export default function App() {
 <div className="max-w-7xl mx-auto px-8 relative z-10">
 <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
 <div>
-<h2 className="text-5xl font-bold tracking-tight mb-4 gold-gradient text-transparent bg-clip-text">How our system works!</h2>
+<h2 className="text-5xl font-bold tracking-tight mb-4 gold-gradient text-transparent bg-clip-text">How our system works</h2>
 <p className="text-on-primary-container text-xl max-w-xl">Success isn't accidental. It's engineered through architectural precision in every application document.</p>
 </div>
 <div className="flex gap-4">
@@ -177,7 +176,7 @@ export default function App() {
                         Unlike generic chatbots that hallucinate experiences, we operate on a strict <span className="text-secondary font-bold">Truth Protocol</span>. 
                     </p>
 <p className="text-lg text-on-surface-variant leading-relaxed">
-                        We don't invent history. We strategically re-architect your existing successes, using your actual accomplishments to prove you're the candidate they're looking for. Professional integrity is built into every line of code.
+                        We don't invent history. We strategically reframe your existing successes, using your actual accomplishments to prove you're the candidate they're looking for. Professional integrity is built into every line of code.
                     </p>
 </div>
 </div>
@@ -213,7 +212,7 @@ export default function App() {
 <select className="w-full bg-white/5 border-b-2 border-white/10 text-white p-4 focus:border-secondary focus:ring-0 transition-colors rounded-t-lg appearance-none" name="Segment" required>
 <option className="bg-primary-container">Corporate</option>
 <option className="bg-primary-container">UK Civil Service</option>
-<option className="bg-primary-container">UAE</option>
+<option className="bg-primary-container">UAE / GCC</option>
 </select>
 </div>
 <button disabled={status === 'loading'} className="w-full gold-gradient text-white font-black py-5 rounded-xl text-lg hover:opacity-90 active:scale-[0.98] transition-all cinematic-shadow mt-4 disabled:opacity-50" type="submit">
@@ -247,7 +246,7 @@ export default function App() {
 <a className="text-slate-500 hover:text-amber-500 underline-offset-4 hover:underline transition-all duration-200" href="#">LinkedIn</a>
 </div>
 <div className="text-slate-500 text-center md:text-right">
-                © 2024 CareerBoost AI. Architectural Precision in Career Growth.
+                © 2026 CareerBoost AI. Get Hired Honestly.
             </div>
 </div>
 </footer>
