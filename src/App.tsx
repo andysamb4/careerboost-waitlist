@@ -27,7 +27,7 @@ export default function App() {
     <>
       <nav className="sticky top-0 z-50 w-full bg-white/70 backdrop-blur-lg shadow-[0_40px_40px_rgba(0,0,0,0.04)] font-['Inter'] antialiased tracking-tight">
 <div className="flex items-center justify-between px-8 py-4 max-w-7xl mx-auto w-full">
-<div className="text-xl font-extrabold tracking-tighter text-[#0A192F]">CareerBoost AI</div>
+<div className="text-xl font-extrabold tracking-tighter text-[#0A192F]">Applica</div>
 <div className="hidden md:flex items-center gap-8">
 <a className="text-slate-500 font-medium hover:text-amber-600 transition-colors" href="#">How It Works</a>
 </div>
@@ -51,7 +51,7 @@ export default function App() {
 <span className="text-transparent bg-clip-text gold-gradient">actually want</span>
 </h1>
 <p className="text-on-primary-container text-xl md:text-2xl leading-relaxed max-w-2xl mb-12">
-                        CareerBoost AI tailors your CV, cover letter, and interview prep to every job you apply for. Upload the job description. Get a complete, ready-to-submit application — in minutes.
+                        Applica tailors your CV, cover letter, and interview prep to every job you apply for. Upload the job description. Get a complete, ready-to-submit application — in minutes.
                     </p>
 <div className="flex flex-col sm:flex-row gap-4">
 <a className="gold-gradient text-white px-8 py-5 rounded-lg font-bold text-lg cinematic-shadow hover:opacity-90 transition-all active:scale-95 text-center" href="#waitlist">
@@ -96,7 +96,7 @@ export default function App() {
                         </p>
 <div className="pt-4">
 <p className="text-xl font-bold text-primary-container italic border-l-4 border-secondary pl-6">
-                                CareerBoost fixes that.
+                                Applica fixes that.
                             </p>
 </div>
 </div>
@@ -242,7 +242,7 @@ export default function App() {
 {/* Footer */}
 <footer className="bg-white py-16 w-full font-['Inter'] text-sm tracking-wide border-t border-surface-container-low">
 <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-8">
-<div className="text-lg font-black text-[#0A192F]">CareerBoost AI</div>
+<div className="text-lg font-black text-[#0A192F]">Applica</div>
 <div className="flex gap-8 items-center">
 <a className="text-slate-500 hover:text-amber-500 underline-offset-4 hover:underline transition-all duration-200" href="#">Privacy Policy</a>
 <a className="text-slate-500 hover:text-amber-500 underline-offset-4 hover:underline transition-all duration-200" href="#">Terms of Service</a>
@@ -250,7 +250,7 @@ export default function App() {
 <a className="text-slate-500 hover:text-amber-500 underline-offset-4 hover:underline transition-all duration-200" href="#">LinkedIn</a>
 </div>
 <div className="text-slate-500 text-center md:text-right">
-                © 2026 CareerBoost AI. Get Hired Honestly.
+                © 2026 Applica. Get Hired Honestly.
             </div>
 </div>
 </footer>
