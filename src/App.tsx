@@ -119,7 +119,7 @@ export default function App() {
 <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-bold text-primary-container">01</div>
 </div>
 <h3 className="text-2xl font-bold mb-4">Your CV, tailored to the role.</h3>
-<p className="text-on-surface-variant leading-relaxed">Our AI analyzes the job description's hidden keywords and re-prioritizes your experience to match exactly what hiring managers want to see.</p>
+<p className="text-on-surface-variant leading-relaxed">Applica reads the job description and restructures your CV around what that specific employer is looking for — the right experience surfaced, the right keywords in place, formatted to meet ATS requirements cleanly. Same career, sharper focus.</p>
 </div>
 {/* Step 2 */}
 <div className="group">
@@ -128,7 +128,7 @@ export default function App() {
 <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-bold text-primary-container">02</div>
 </div>
 <h3 className="text-2xl font-bold mb-4">A cover letter that actually says something.</h3>
-<p className="text-on-surface-variant leading-relaxed">Forget templates. We draft a unique, high-conversion narrative that connects your specific achievements to the company's pain points.</p>
+<p className="text-on-surface-variant leading-relaxed">Not a template with your name swapped in. Applica writes a letter that connects what you've done to what this role needs — in a tone that sounds like you wrote it on a good day. Edit it or send it as-is.</p>
 </div>
 {/* Step 3 */}
 <div className="group">
@@ -136,8 +136,8 @@ export default function App() {
 <img alt="Interview Prep" className="w-full h-full object-cover grayscale opacity-50 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" data-alt="close-up of a professional handshake in a sunlit modern glass office building symbolizing successful interview results" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhqf6WlFTLzGFOxASxHv4kCvXUv-9NrrFf1oAAhaYdG2ejtHOn7oSOoWbNb3hfj9IDQe819aKJ6d18AFAK4KxAB3bNm7gxtqL-eJUdVz2xLdQbCXPkWCD_q59B-Dt8mmm13TKUwPHafND2c8tvf3l33uXjUg4ef4C1zno4YPde_lEUKIeHva4Gc-zpJNJBzUZvlB8xUNMq383E09R9AWOKYQLFiZMunEOGGga_huVYDpiXC4hbvRuknp_NcnVjYHcBhP1F7Nt68Fc"/>
 <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-bold text-primary-container">03</div>
 </div>
-<h3 className="text-2xl font-bold mb-4">Interview prep, built in.</h3>
-<p className="text-on-surface-variant leading-relaxed">Receive a list of likely interview questions and custom "STAR" method answers based on your application and the specific job requirements.</p>
+<h3 className="text-2xl font-bold mb-4">Interview prep, before you need it.</h3>
+<p className="text-on-surface-variant leading-relaxed">You get the questions they're likely to ask — drawn from the job description, not a generic list. Each one comes with a structured answer built from your actual experience, so you're not improvising on the day.</p>
 </div>
 </div>
 </div>
