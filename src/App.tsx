@@ -31,9 +31,9 @@ export default function App() {
 <div className="hidden md:flex items-center gap-8">
 <a className="text-slate-500 font-medium hover:text-amber-600 transition-colors" href="#">How It Works</a>
 </div>
-<button className="bg-amber-600 text-white px-6 py-2.5 rounded-lg font-bold text-sm hover:opacity-80 transition-all duration-300 active:scale-95">
+<a href="#waitlist" className="bg-amber-600 text-white px-6 py-2.5 rounded-lg font-bold text-sm hover:opacity-80 transition-all duration-300 active:scale-95 inline-block text-center">
                 Join Waitlist
-            </button>
+            </a>
 </div>
 </nav>
 <main>
