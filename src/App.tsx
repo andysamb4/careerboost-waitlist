@@ -230,8 +230,8 @@ export default function App() {
 <div className="absolute inset-0 bg-primary-container/40 backdrop-overlay"></div>
 <div className="absolute inset-0 flex items-center justify-center p-12">
 <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/10 max-w-sm text-center">
-<div className="text-4xl font-black text-white mb-2">94%</div>
-<p className="text-on-primary-container text-sm">Of beta users secured an interview within the first 3 applications.</p>
+<h3 className="text-2xl font-black text-white mb-4 leading-tight">Your dream role isn't out of reach.</h3>
+<p className="text-on-primary-container text-sm">It's just waiting for the right application.</p>
 </div>
 </div>
 </div>
