@@ -153,7 +153,56 @@ export default function App() {
 </div>
 </div>
 </section>
-{/* Waitlist Form */}
+{/* Three Modes Section */}
+<section className="py-40 bg-primary-container text-white overflow-hidden relative">
+<div className="absolute inset-0 opacity-5 pointer-events-none">
+<div className="absolute -top-24 -right-24 w-96 h-96 bg-secondary rounded-full blur-[120px]"></div>
+<div className="absolute bottom-0 -left-48 w-[500px] h-[500px] bg-secondary-container rounded-full blur-[160px]"></div>
+</div>
+<div className="max-w-7xl mx-auto px-8 relative z-10">
+<div className="text-center mb-20">
+<span className="text-secondary font-bold tracking-widest text-xs uppercase mb-4 block">Not One-Size-Fits-All</span>
+<h2 className="text-4xl md:text-6xl font-black text-white tracking-tighter mb-6">
+Built for the way <span className="text-transparent bg-clip-text gold-gradient">you're</span> actually applying.
+</h2>
+<p className="text-on-primary-container text-xl max-w-2xl mx-auto">Different markets have different rules. We don't just tailor your CV — we tailor the entire approach to your sector.</p>
+</div>
+<div className="grid md:grid-cols-3 gap-8">
+{/* Mode 1 */}
+<div className="bg-white/5 backdrop-blur-sm rounded-2xl p-10 border border-white/10 hover:border-secondary/40 transition-all duration-500 group">
+<div className="w-14 h-14 rounded-xl bg-secondary/20 flex items-center justify-center mb-6 group-hover:bg-secondary/30 transition-colors">
+<span className="material-symbols-outlined text-secondary text-2xl">work</span>
+</div>
+<h3 className="text-2xl font-bold mb-4 text-white">All Roles</h3>
+<p className="text-on-primary-container leading-relaxed">Competing for roles in tech, finance, consulting, or any competitive field? We optimise your CV for ATS filters, surface commercial impact, and position you as the standout candidate in a crowded shortlist.</p>
+</div>
+{/* Mode 2 */}
+<div className="bg-white/5 backdrop-blur-sm rounded-2xl p-10 border border-white/10 hover:border-secondary/40 transition-all duration-500 group relative">
+<div className="absolute top-4 right-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full gold-gradient text-white text-xs font-bold uppercase tracking-wider">
+<span className="material-symbols-outlined text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+Specialist Mode
+</div>
+<div className="w-14 h-14 rounded-xl bg-secondary/20 flex items-center justify-center mb-6 group-hover:bg-secondary/30 transition-colors">
+<span className="material-symbols-outlined text-secondary text-2xl">account_balance</span>
+</div>
+<h3 className="text-2xl font-bold mb-4 text-white">UK Civil Service</h3>
+<p className="text-on-primary-container leading-relaxed">Civil Service applications play by different rules. Our dedicated mode structures your competency answers using the STAR framework, aligned to the Success Profiles and Behaviours — so your application actually answers what they're asking.</p>
+</div>
+{/* Mode 3 */}
+<div className="bg-white/5 backdrop-blur-sm rounded-2xl p-10 border border-white/10 hover:border-secondary/40 transition-all duration-500 group relative">
+<div className="absolute top-4 right-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full gold-gradient text-white text-xs font-bold uppercase tracking-wider">
+<span className="material-symbols-outlined text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+Specialist Mode
+</div>
+<div className="w-14 h-14 rounded-xl bg-secondary/20 flex items-center justify-center mb-6 group-hover:bg-secondary/30 transition-colors">
+<span className="text-2xl">🇦🇪</span>
+</div>
+<h3 className="text-2xl font-bold mb-4 text-white">UAE</h3>
+<p className="text-on-primary-container leading-relaxed">Executive roles in Dubai, Abu Dhabi, and the wider Gulf demand a specific style — commercial impact, ROI metrics, market authority. Our UAE mode formats your CV the way regional employers expect to see it.</p>
+</div>
+</div>
+</div>
+</section>
 <section className="py-40 bg-surface" id="waitlist">
 <div className="max-w-7xl mx-auto px-8">
 <div className="bg-primary-container rounded-[2rem] overflow-hidden flex flex-col lg:flex-row">
