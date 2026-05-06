@@ -38,42 +38,84 @@ export default function App() {
 </nav>
 <main>
 {/* Hero Section */}
-<section className="relative min-h-[921px] flex items-center justify-center bg-primary-container overflow-hidden pt-20 pb-32">
+<section className="relative flex items-center justify-center bg-primary-container overflow-hidden pt-16 pb-16">
 {/* Decorative background elements */}
 <div className="absolute inset-0 opacity-10 pointer-events-none">
 <div className="absolute -top-24 -left-24 w-96 h-96 bg-secondary rounded-full blur-[120px]"></div>
 <div className="absolute top-1/2 -right-48 w-[500px] h-[500px] bg-secondary-container rounded-full blur-[160px]"></div>
 </div>
-<div className="max-w-7xl mx-auto px-8 w-full relative z-10 grid md:grid-cols-12 gap-12 items-center">
-<div className="md:col-span-7">
-<h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight tracking-tighter mb-8">
-                        We believe you deserve the job <br/>
-<span className="text-transparent bg-clip-text gold-gradient">you're qualified for</span>
+<div className="max-w-5xl mx-auto px-8 w-full relative z-10 text-center">
+{/* Full-width headline */}
+<h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white leading-tight tracking-tighter mb-6">
+  Get the job <span className="text-transparent bg-clip-text gold-gradient">you want.</span>
 </h1>
-<p className="text-on-primary-container text-xl md:text-2xl leading-relaxed max-w-2xl mb-12">
-                        You have the right skills and experience, but generic CVs get filtered out. We believe you should have the absolute best opportunity to land the role you actually want.
-                    </p>
-<div className="flex flex-col sm:flex-row gap-4">
-<a className="gold-gradient text-white px-8 py-5 rounded-lg font-bold text-lg cinematic-shadow hover:opacity-90 transition-all active:scale-95 text-center" href="#waitlist">
-                            Sign up now for early access
-                        </a>
+{/* Subhead */}
+<p className="text-on-primary-container text-xl md:text-2xl leading-relaxed max-w-3xl mx-auto mb-8">
+  We turn your experience into applications that land interviews.
+</p>
+
+{/* Three feature cards */}
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+  {/* Card 1 */}
+  <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-secondary/40 transition-all duration-300 text-left group">
+    <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-colors" style={{background: 'rgba(255, 215, 0, 0.15)'}}>
+      <span className="material-symbols-outlined text-2xl" style={{color: '#ffd700'}}>description</span>
+    </div>
+    <h3 className="text-xl font-bold text-white mb-3">Build Your Master CV</h3>
+    <p className="text-on-primary-container text-sm leading-relaxed">Upload what you've got. We turn your existing experience into a complete, structured master CV — the source of truth for every application.</p>
+  </div>
+  {/* Card 2 */}
+  <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-secondary/40 transition-all duration-300 text-left group">
+    <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-colors" style={{background: 'rgba(255, 215, 0, 0.15)'}}>
+      <span className="material-symbols-outlined text-2xl" style={{color: '#ffd700'}}>tune</span>
+    </div>
+    <h3 className="text-xl font-bold text-white mb-3">Tailor Your CV to a Job</h3>
+    <p className="text-on-primary-container text-sm leading-relaxed">Paste any job description. In seconds, get a fully tailored CV and cover letter, ATS-formatted and matched to what the role actually asks for.</p>
+  </div>
+  {/* Card 3 */}
+  <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-secondary/40 transition-all duration-300 text-left group">
+    <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-colors" style={{background: 'rgba(255, 215, 0, 0.15)'}}>
+      <span className="material-symbols-outlined text-2xl" style={{color: '#ffd700'}}>mic</span>
+    </div>
+    <h3 className="text-xl font-bold text-white mb-3">Have a Live Interview</h3>
+    <p className="text-on-primary-container text-sm leading-relaxed">Practice with an AI interviewer trained on the role you're applying for. Get real-time feedback so you walk in ready.</p>
+  </div>
+</div>
+
+{/* Beta quote */}
+<blockquote className="my-7 flex flex-col items-center gap-2">
+  <p className="text-lg md:text-xl font-bold text-white italic">"The ATS Analysis is wicked. It's eye opening."</p>
+  <cite className="not-italic text-sm font-semibold uppercase tracking-widest" style={{color: '#ffd700'}}>— Joshua, Beta User</cite>
+</blockquote>
+
+{/* CTA */}
+<div className="flex justify-center">
+  <a className="gold-gradient text-white px-10 py-5 rounded-lg font-bold text-lg cinematic-shadow hover:opacity-90 transition-all active:scale-95 text-center inline-block" href="#waitlist">
+    Sign up now for early access
+  </a>
 </div>
 </div>
-<div className="md:col-span-5 relative">
-<div className="relative bg-white/5 p-4 rounded-xl backdrop-blur-sm border border-white/10">
-<img alt="AI Analysis Report Dashboard" className="rounded-lg shadow-2xl" data-alt="CareerBoost AI analysis report showing match score of 84 with ATS analysis, strengths, missing keywords, and areas for improvement" src="/hero2.png"/>
-<div className="absolute -bottom-8 -left-8 bg-surface-container-lowest p-6 rounded-xl cinematic-shadow hidden md:block border border-outline-variant/10">
-<div className="flex items-center gap-4">
-<div className="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
-<span className="material-symbols-outlined">auto_awesome</span>
-</div>
-<div>
-<p className="font-bold text-on-surface">AI Optimization</p>
-<p className="text-sm text-on-surface-variant">Matching role requirements: 98%</p>
-</div>
-</div>
-</div>
-</div>
+</section>
+
+{/* Product Screenshot Section */}
+<section className="py-20 bg-primary-container border-t border-white/5">
+<div className="max-w-5xl mx-auto px-8 text-center">
+<p className="text-on-primary-container text-sm font-bold uppercase tracking-widest mb-10 opacity-60">See it in action</p>
+<div className="relative inline-block w-full">
+  <div className="relative bg-white/5 p-4 rounded-xl backdrop-blur-sm border border-white/10">
+    <img alt="AI Analysis Report Dashboard" className="rounded-lg shadow-2xl w-full" data-alt="CareerBoost AI analysis report showing match score of 84 with ATS analysis, strengths, missing keywords, and areas for improvement" src="/hero2.png"/>
+    <div className="absolute -bottom-8 -left-8 bg-surface-container-lowest p-6 rounded-xl cinematic-shadow hidden md:block border border-outline-variant/10">
+      <div className="flex items-center gap-4">
+        <div className="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+          <span className="material-symbols-outlined">auto_awesome</span>
+        </div>
+        <div>
+          <p className="font-bold text-on-surface">AI Optimization</p>
+          <p className="text-sm text-on-surface-variant">Matching role requirements: 98%</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </div>
 </section>
@@ -174,7 +216,7 @@ Built for the way <span className="text-transparent bg-clip-text gold-gradient">
 <span className="material-symbols-outlined text-secondary text-2xl">work</span>
 </div>
 <h3 className="text-2xl font-bold mb-4 text-white">All Roles</h3>
-<p className="text-on-primary-container leading-relaxed">Competing for roles in tech, finance, consulting, or any competitive field? We optimise your CV for ATS filters, surface commercial impact, and position you as the standout candidate in a crowded shortlist.</p>
+<p className="text-on-primary-container leading-relaxed">Our standard mode will optimise your CV for ATS filters and position you as the stand out candidate in a crowded shortlist.</p>
 </div>
 {/* Mode 2 */}
 <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-10 border border-white/10 hover:border-secondary/40 transition-all duration-500 group relative">
