@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.applica.uk/sitemap.xml
+Sitemap: https://early.applica.uk/sitemap.xml
