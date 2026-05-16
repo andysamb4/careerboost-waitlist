@@ -25,18 +25,18 @@ export default function App() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 w-full bg-white/70 backdrop-blur-lg shadow-[0_40px_40px_rgba(0,0,0,0.04)] font-['Inter'] antialiased tracking-tight">
+      <nav aria-label="Main navigation" className="sticky top-0 z-50 w-full bg-white/70 backdrop-blur-lg shadow-[0_40px_40px_rgba(0,0,0,0.04)] font-['Inter'] antialiased tracking-tight">
 <div className="flex items-center justify-between px-8 py-4 max-w-7xl mx-auto w-full">
 <div className="text-xl font-extrabold tracking-tighter text-[#0A192F]">Applica</div>
 <div className="hidden md:flex items-center gap-8">
-<a className="text-slate-500 font-medium hover:text-amber-600 transition-colors" href="#">How It Works</a>
+<a className="text-slate-500 font-medium hover:text-amber-600 transition-colors" href="#how-it-works">How It Works</a>
 </div>
 <a href="#waitlist" className="bg-amber-600 text-white px-6 py-2.5 rounded-lg font-bold text-sm hover:opacity-80 transition-all duration-300 active:scale-95 inline-block text-center">
                 Join Waitlist
             </a>
 </div>
 </nav>
-<main>
+<main role="main">
 {/* Hero Section */}
 <section className="relative flex items-center justify-center bg-primary-container overflow-hidden pt-16 pb-16">
 {/* Decorative background elements */}
@@ -120,7 +120,7 @@ export default function App() {
 </div>
 </section>
 {/* The How Section */}
-<section className="py-40 bg-surface-container-lowest">
+<section id="how-it-works" className="py-40 bg-surface-container-lowest">
 <div className="max-w-7xl mx-auto px-8">
 <div className="grid md:grid-cols-2 gap-20 items-center">
 <div>
